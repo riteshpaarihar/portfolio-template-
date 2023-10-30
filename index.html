@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Simple Portfolio</title>
+    <!-- ****** Font Family****** -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca:wght@600&family=Poppins:wght@300;500;600;800&family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <!-- ****** FontAwesome****** -->
+    <script src="https://kit.fontawesome.com/69a51beb3e.js" crossorigin="anonymous"></script>
+    <!-- ****** JQuery****** -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- ****** BootStrap****** -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- ****** Css ****** -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ****** Javascript ****** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <!-- ****** Animation AOS ****** -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ****** Header Start****** -->
+    <i class="fa-solid icon fa-bars"></i>
+
+
+    <section>
+        <div class="container-fluid">
+
+            <header id="header">
+
+                <div class="profile">
+
+                    <img src="Assest/profile pic.jpeg" alt="" class="img-fluid rounded-circle">
+
+                    <h1>Ritesh Singh</h1>
+                    <div class="social_links mt-3">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-skype"></i></a>
+
+                    </div>
+                </div>
+
+                <nav class="nav-menu navbar" id="navbar">
+                    <ul>
+                        <li>
+                            <a href="#hero" class="nav-link scrollto active"><i class="fa-solid fa-house"></i> <span>Home</span></a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link scrollto"><i class="fa-regular fa-user"></i> <span>About</span></a>
+                        </li>
+                        <li>
+                            <a href="#servises" class="nav-link scrollto "> <i class="fas fa-laptop"></i><span>
+                    Services</span></a>
+                        </li>
+                        <li>
+                            <a href="#Portfolio" class="nav-link scrollto"><i class="fas fa-camera"></i>
+                                <span>
+                    Portfolio</span></a>
+                        </li>
+
+
+                        <li>
+                            <a href="#contact" class="nav-link scrollto "><i class="fas fa-envelope"></i><span>
+                   Contact</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </section>
+    <!-- ****** Header End****** -->
+    <!-- ****** hero section start ****** -->
+    <section>
+        <div id="hero" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="hero-container ">
+                <h1>Ritesh Singh</h1>
+                <div class="typed-container">
+                    <p><span>I'm</span> <span id="typed-output"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ****** hero section end ****** -->
+    <main id="main">
+
+        <!-- ****** About section start ****** -->
+
+        <section id="about">
+            <div class="container-fluid about">
+
+
+                <div class="container bg-color">
+                    <div class="top_heading">
+                        <h1 id="dynamicHeading">Welcome to Ritesh's Web Development Services</h1>
+                        <p id="dynamicContent"></p>
+                    </div>
+                    <div class="main_heading" data-aos="zoom-in">
+                        <h3>About me</h3>
+                    </div>
+                    <div class="sub_heading">
+
+                        <p>
+                            Greetings! I'm ritesh, a passionate and experienced web developer with a flair for creating stunning and functional websites. With over [X years/months] in the industry, I've had the pleasure of working with a diverse range of clients, helping them establish
+                            a strong online presence.</p>
+                    </div>
+                    <div class="ul_li_continer">
+                        <p class="sub_title"><b>Skills</b></p>
+                        <ul>
+                            <li>Front-end Development (HTML, CSS, JavaScript)</li>
+                            <li>React.js</li>
+                            <li>Angular</li>
+                            <li>Bootstrap</li>
+                            <li>Back-end Development (Node.js, Express)</li>
+                            <li>Database Management (MySQL, MongoDB)</li>
+                            <li>Responsive Web Design</li>
+                            <li>API Integration</li>
+                            <li>Version Control (Git)</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+        <!-- ****** About section end ****** -->
+
+        <!-- ****** Servises section start ****** -->
+        <section id="servises">
+            <div class="container-fluid servises">
+
+                <div class="container bg-color">
+                    <div class="main_heading" data-aos="zoom-in">
+                        <h3>Servises</h3>
+                    </div>
+                    <div class="sub_heading">
+                        <p><b>Elevate Your Online Presence</b></p>
+                        <p>Greetings! I'm Ritesh, a seasoned web developer dedicated to crafting exceptional online experiences. With expertise in both frontend and backend technologies, I bring your digital vision to life.</p>
+                    </div>
+                    <div class="fields">
+                        <p class="sub_field"><b>What I Offer</b></p>
+                        <div class="sub_container">
+                            <p class="sub_title">
+                                <b>Custom Web Solutions</b>
+                            </p>
+                            <p class="sub_description">
+                                Every project is unique, and I thrive on tailoring websites to meet your specific needs. From sleek portfolios to dynamic e-commerce platforms, I've got the skills to make your vision a reality.
+                            </p>
+                        </div>
+                        <div class="sub_container">
+                            <p class="sub_title">
+                                <b>Responsive Design</b>
+                            </p>
+                            <p class="sub_description">
+                                In a mobile-first world, your website needs to look stunning on any device. I ensure seamless experiences, optimizing for desktops, tablets, and smartphones.
+                            </p>
+                        </div>
+                        <div class="sub_container">
+                            <p class="sub_title">
+                                <b>User-Friendly Interfaces</b>
+                            </p>
+                            <p class="sub_description">
+                                Intuitive navigation and interactive elements are at the core of my designs. Your users will love the experience, leading to higher engagement and conversions.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="fields">
+                        <h3 class="sub_field" data-aos="zoom-in">My Approach</h3>
+                        <div class="sub_container">
+                            <p class="sub_title">
+                                <b>1. Consultation</b>
+                            </p>
+                            <p class="sub_description">
+                                We begin with a detailed discussion about your goals and vision for the project. Understanding your brand and audience is crucial.
+                            </p>
+                        </div>
+                        <div class="sub_container">
+                            <p class="sub_title">
+                                <b> 2. Planning</b>
+                            </p>
+                            <p class="sub_description">
+                                I create a customized roadmap outlining the project scope, milestones, and timelines. This ensures clear communication and expectations.
+                            </p>
+                        </div>
+                        <div class="sub_container">
+                            <p class="sub_title">
+                                <b>3. Development</b>
+                            </p>
+                            <p class="sub_description">
+                                With your approval, I dive into the development process. Using cutting-edge technologies, I bring the design to life, ensuring functionality and performance.
+                            </p>
+                        </div>
+                        <div class="sub_container">
+                            <p class="sub_title">
+                                <b>4. Testing</b>
+                            </p>
+                            <p class="sub_description">
+                                Rigorous testing is conducted to identify and rectify any bugs or issues. This guarantees a seamless user experience upon launch.
+                            </p>
+                        </div>
+                        <div class="sub_container">
+                            <p class="sub_title">
+                                <b>5. Deployment</b>
+                            </p>
+                            <p class="sub_description">
+                                Once you're thrilled with the final product, I assist with the deployment process, making sure your website is live for the world to see.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sub_heading">
+                        <p><b>Let's Collaborate</b></p>
+                        <p>Ready to embark on this digital journey together? Whether you have a specific project in mind or need guidance, I'm here to help. Get in touch today, and let's turn your ideas into reality.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ****** Servises section end ****** -->
+        <!-- ****** Portfolio Start ****** -->
+
+        <section id="Portfolio">
+            <div class="container-fluid">
+                <div class="container my-3">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="com-md-12">
+                                <div class="img-container">
+                                    <a href="/conect/first/index.html">
+                                        <img src="Assest/p-1.png" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="img-content">
+                                    <div class="img-content-heading">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="img-content-des">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi deleniti ducimus omnis et assumenda pariatur possimus eaque numquam, voluptatem perspiciatis soluta delectus dicta nam praesentium ipsa deserunt?
+                                            Ut, numquam ipsum.</p>
+                                    </div>
+                                    <div class="img-content-des-btn">
+                                        <a href="conect/first/index.html">learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="com-md-12">
+                                <div class="img-container">
+                                    <a href="conect/second/index.html">
+                                        <img src="Assest/p-2.png" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="img-content">
+                                    <div class="img-content-heading">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="img-content-des">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sunt, veniam dolorum inventore corrupti vitae at qui quam ab suscipit magni, maxime, voluptates consectetur a obcaecati eaque in? Ullam, quis.</p>
+                                    </div>
+                                    <div class="img-content-des-btn">
+                                        <a href="/conect/second/index.html">learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="com-md-12">
+                                <div class="img-container">
+                                    <a href="/conect/third/index.html">
+                                        <img src="Assest/Screenshot 2023-10-30 110708.png" alt="" class="img-fluid">
+
+                                    </a>
+                                </div>
+                                <div class="img-content">
+                                    <div class="img-content-heading">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="img-content-des">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem doloribus asperiores soluta officia, praesentium accusamus, sapiente necessitatibus facere ea illo, vitae quam autem distinctio temporibus
+                                            repudiandae ipsa ad eaque?</p>
+                                    </div>
+                                    <div class="img-content-des-btn">
+                                        <a href="">learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- ****** Portfolio End ****** -->
+        <!-- ****** Contact section Start ****** -->
+        <section id="contact">
+            <div class="container-fluid ">
+                <div class="container form-bg_color">
+                    <form id="contactForm" action="#">
+                        <div class="row ">
+                            <div class="col-sm-12 col-lg-5 col-md-5 form_main_con_left">
+                                <div class="form_heading my-3" data-aos="zoom-in">
+                                    <p><b>Get In Touch</b></p>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-6 float_control">
+                                        <div class="form-group">
+                                            <input type="text" placeholder=" " id="name" required>
+                                            <label for="name">Full Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" placeholder=" " id="email" required>
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder=" " id="subject" required>
+                                            <label for="text">subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="text" id="summary" required></textarea>
+                                            <label for="name">Summary</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group btn_container">
+                                            <a href="#" type="button" class="sub_btn" id="sub_btn">Submit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-5 col-lg-5 form_main_con">
+                                <div class="width_control">
+                                    <div class="form_heading_right my-3" data-aos="zoom-in">
+                                        <p><b>Contact Us</b></p>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="contact_aa">
+                                            <span class="icon_forms"><i class="fa-solid fa-location-dot"></i></span>
+                                            <span><span><b>Location:</b></span>
+                                            <span>Indore</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="contact_aa">
+                                            <span class="icon_forms"><i class="fa-solid fa-phone"></i></span>
+                                            <span><span><b>Phone:</b></span> <a href="#">+91 7869386543</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="contact_aa">
+                                            <span class="icon_forms"><i class="fa-regular fa-envelope"></i></span>
+                                            <samp><span><b>Email:</b></span> <span class="web_Lo_co" ><a href="#">ritesh.rs199@gmail.com</a></span></samp>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="contact_aa">
+                                            <span class="icon_forms"><i class="fa-solid fa-globe"></i></span>
+                                            <span><span><b>Website:</b></span><a href="#"> yoursite.com</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <!-- ****** Contact section end ****** -->
+    </main>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
