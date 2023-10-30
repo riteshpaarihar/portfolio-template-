@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fcfcfc;
+}
+
+
+/* ========== header start ========== */
+
+#toggle_nav {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 111;
+    background-color: #fff;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.fa-bars {
+    font-size: 30px;
+    color: red;
+}
+
+.borse_header {
+    border-bottom: 1px solid red;
+    background-color: #fff !important;
+}
+
+.header {
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.nav_link {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    display: none;
+}
+
+.nav_link ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.nav_link ul li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav_link ul li a {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    color: #000;
+}
+
+.nav_link ul li a:hover {
+    color: red;
+}
+
+.nav_link ul li a span {
+    text-decoration: dotted #000 !important;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.nav_link ul li a span::after {
+    content: "";
+    display: block;
+    border-bottom: 1px dashed #000;
+    margin-top: 1px;
+}
+
+.nav_link ul li a span:hover::after {
+    border-bottom-color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+    }
+    .nav_link ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: 0;
+        right: 133px;
+        margin-top: 40px;
+    }
+    .nav_link ul li {
+        list-style: none;
+        padding: 5px 20px;
+    }
+}
+
+
+/* ========== header start ========== */
+
+
+/* ========== horo start ========== */
+
+
+/* 
+#hero_section {
+    width: 100%;
+    background: url(Assest/header-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 110px 0 100px 0;
+    height: auto;
+    background-color: #FBFBFB;
+} */
+
+#hero_section {
+    position: relative;
+}
+
+.name_heading {
+    font-size: 7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+
+/* .img_hero {
+    width: 640px;
+} */
+
+.img_hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.up_down {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 32%;
+    align-items: center;
+}
+
+.up_down a i {
+    font-size: 50px;
+    color: #666666;
+}
+
+.up_down a {
+    color: #666666;
+    text-decoration: none;
+}
+
+@keyframes moveUpDown {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animated-element {
+    display: inline-block;
+    animation: moveUpDown 1s infinite;
+}
+
+@media only screen and (max-width: 768px) {
+    .up_down {
+        left: 0px;
+    }
+    .img_hero {
+        width: unset;
+    }
+}
+
+
+/* ========== hero end ========== */
+
+
+/* ========== A LITTLE ABOUT ME start ========== */
+
+#a_little {
+    background-color: #e04343;
+    font-size: 16px;
+    padding: 80px 0px;
+}
+
+.a_little_top p::after {
+    content: "";
+    border-bottom: dotted black;
+    display: block;
+    width: 142px;
+    margin: auto;
+    margin-top: 3px;
+}
+
+
+/* ========== A LITTLE ABOUT ME end ========== */
+
+.border_line::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: #666666;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.c_icon {
+    position: relative;
+    width: 175px;
+    height: 175px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 180px;
+    font-size: 56px;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0);
+    margin-bottom: 40px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 1px solid #E04343;
+    color: #E04343;
+    overflow: hidden;
+}
+
+
+/* .c_icon i:hover {
+    transform: scale(1.2);
+}
+
+.c_icon:hover {
+    background-color: #e04343;
+    color: #fff;
+} */
+
+.c_icon:hover {
+    background-color: #e04343;
+    color: #fff;
+    transform: scale(1.2);
+    width: 175px !important;
+    height: 175px !important;
+}
+
+.c_content {
+    color: #666666;
+}
+
+#i_do {
+    padding: 50px 0px;
+}
+
+
+/*  */
+
+.about_img {
+    background: url(Assest/about1.png);
+    background-image: cover;
+    height: 400px;
+}
+
+.full_con {
+    padding: 20px 50px 25px 50px;
+    color: #fcfcfc;
+}
+
+.full_con h6::after {
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 70px;
+    background-color: #fcfcfc;
+    margin-top: 20px;
+}
+
+.color-bg {
+    background: #E04343;
+}
+
+.cet_btn {
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fcfcfc;
+    border: solid 1px #fcfcfc;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.cet_btn:hover {
+    background-color: #fcfcfc;
+    color: #E04343;
+}
+
+.full_conn {
+    color: #666666;
+    padding: 20px 50px 25px 50px;
+}
+
+.full_conn h6::after {
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 70px;
+    background-color: #666666;
+    margin-top: 20px;
+}
+
+.cet_btnn {
+    display: inline-block;
+    padding: 15px 20px;
+    color: #666666;
+    border: solid 1px #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.cet_btnn:hover {
+    background-color: #fcfcfc;
+    color: #E04343;
+}
+
+.about_img_one {
+    background: url(Assest/about2.png);
+    background-image: cover;
+    height: 400px;
+}
+
+.about_imgg {
+    background: url(Assest/about3.png);
+    background-image: cover;
+    height: 400px;
+}
+
+
+/*  */
+
+filter: url(data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale);
+filter: gray;
+-webkit-filter: grayscale(100%);
+-webkit-transition: all .6s ease;
+-webkit-backface-visibility: hidden;
+
+}

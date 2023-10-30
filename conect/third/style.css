@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fa;
+}
+
+.social-media-edu {
+    display: flex;
+    padding: 20px;
+    background: #fff;
+}
+
+.social-media-edu i {
+    font-size: 40px;
+    line-height: 54px;
+    color: #006DF0;
+}
+
+.social-edu-ctn h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #006DF0;
+}
+
+.social-edu-ctn p {
+    font-size: 14px;
+    margin: 0;
+    color: #303030;
+}
+
+.social-edu-ctn {
+    margin-left: 15px;
+}
+
+.social-media-edu.twitter-cl i {
+    color: #933EC5;
+}
+
+.twitter-cl .social-edu-ctn h3 {
+    color: #933EC5;
+}
+
+.social-media-edu.linkedin-cl i {
+    color: #65b12d;
+}
+
+.linkedin-cl .social-edu-ctn h3 {
+    color: #65b12d;
+}
+
+.social-media-edu.youtube-cl i {
+    color: #D80027;
+}
+
+.youtube-cl .social-edu-ctn h3 {
+    color: #D80027;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+    .social-media-edu {
+        margin-top: 10px;
+    }
+    .single-cards-item {
+        margin-top: 10px;
+    }
+}
+
+
+/*  */
+
+.single-cards-item,
+.single-review-st-item,
+.white-box {
+    background: #fff;
+    overflow: hidden;
+}
+
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+.single-product-image img {
+    width: 100%;
+}
+
+.single-product-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.single-product-text img {
+    width: 100px;
+    height: 100px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    margin-top: -70px;
+}
+
+.single-product-text .cards-hd-dn {
+    font-size: 18px;
+}
+
+.single-product-text h5 {
+    font-size: 14px;
+    color: #999;
+    font-weight: 300;
+}
+
+.single-product-text .ctn-cards {
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+}
+
+.single-product-text .follow-cards {
+    font-size: 14px;
+    color: #fff;
+    background: #006DF0;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.cards-dtn {
+    margin-top: 27px;
+}
+
+.cards-dtn h3 {
+    font-size: 18px;
+    color: #303030;
+    margin: 0;
+}
+
+.cards-dtn p {
+    font-size: 14px;
+    color: #303030;
+    margin: 0;
+}
+
+.single-review-st-item,
+.white-box {
+    padding: 20px;
+}
+
+.single-cards-item,
+.single-review-st-item,
+.white-box {
+    background: #fff;
+    overflow: hidden;
+}
+
+.single-review-st-hd h2 {
+    font-size: 18px;
+    color: #303030;
+}
+
+.single-review-st-text {
+    padding: 7.7px 0px;
+}
+
+.social-media-edu,
+.single-review-st-text {
+    display: flex;
+}
+
+.review-ctn-hf {
+    margin-top: 5px;
+}
+
+.review-ctn-hf,
+.review-item-rating {
+    margin-left: 15px;
+}
+
+.single-review-st-text img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.review-ctn-hf h3 {
+    font-size: 14px;
+    color: #303030;
+    margin-bottom: 5px;
+}
+
+.review-ctn-hf p {
+    font-size: 14px;
+    color: #303030;
+    margin: 0;
+}
+
+.review-item-rating {
+    text-align: right;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.review-item-rating i {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #ffb463;
+}
+
+.navbar-dark .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+
+.fa-li {
+    position: relative;
+    left: 0;
+}
